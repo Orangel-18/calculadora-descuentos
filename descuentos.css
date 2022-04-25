@@ -61,6 +61,7 @@ button {
     border: solid 0.5px #A070FF;
     text-align: center;
     color: var(--this-purple);
+    cursor: pointer;
 }
 
 input {
