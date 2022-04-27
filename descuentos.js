@@ -12,5 +12,7 @@ function precioConDescuento() {
 
     const porPagar = calcularPrecio(precio, descuento);
 
-    alert(`El total a pagar es de $ ${porPagar}`);
+    const result = document.getElementById("result");
+
+    result.innerText = `El total a pagar es de $ ${porPagar}`;
 }
